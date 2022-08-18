@@ -63,14 +63,71 @@ span {
     font-weight: 500;
 }
 
-.repositorio{
+.h2-repositorios{
     text-align: center;
-    
+    font-weight: 900;
+    font-size: 3em;
+
 }
 
 .list-group-item {
     text-align: center;
 }
+
+
+.general{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 700px;
+    background-color: red;
+    
+    
+}
+
+.title-h1{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.datos{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.sobre-mi{
+    padding: 20px;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(162, 161, 161);
+    
+}
+
+img{
+    height: 400px;
+    width: 100;
+}
+
+.img-foto{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+
 
 .logo-felipe {
     text-decoration: none;
