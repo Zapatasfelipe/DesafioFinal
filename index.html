@@ -28,78 +28,75 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link text-white-50" href="#">Proyectos</a>
-                    <a class="nav-link text-white-50" href="#">Contacto</a>
+                    <a class="nav-link text-white-50" href="#proyectos">Proyectos</a>
+                    <a class="nav-link text-white-50" href="#contacto">Contacto</a>
                 </div>
             </div>
         </div>
     </nav>
+  
 
-
-    <h1 class="title-h1">Curiculum Vitae</h1>
-
-    <div class="general">
-        
-
-        <div class="datos">
-            <h4>Mis Actitides</h4>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Boostrap5</li>
-                <li>Git</li>
-                <li>Github</li>
-            </ul>
-            <h5>Otras Actitides</h5>
-            <ul>
-                <li>Arreglo de pc</li>
-                <li>Instalacion de S.O</li>
-            </ul>
-
-        </div>
-        <div class="sobre-mi">
-            <div>
-                <h2 class="h2">Sobre mi</h2>
-                <p>Actualmente cursando introduccion al desarrollo WEB en DesafioLatam,queriendo adquirir mas conocimiento <br>
-                con los cursos siguientes que tiene DesafioLatam como javascript y React.</p>
-                <p>Fanatico del deporte, practico futbol y trekking en mis tiempos libres</p>
-                <a href="http://">Link GitHub</a><br>
-
-                <div class="img-foto"><img src="assets/img/foto-curriculum.jpeg" alt=""></div>
+    <div class="container">
+        <div class="row">
+            <div class=" col">
+                <h1 class="title-h1 container-fluid h1">Portafolio</h1>
+                <img class="img-fluid h-75 w-100 mx-auto d-block" src="assets/img/img-hero.jpeg" alt="">
                 
             </div>
-            
         </div>
-        
-        
-
     </div>
 
-    <div class="repositorios">
-        <h2 class="h2-repositorios">Mis Repositorios</h2>
+    <div class="container mt-n1">
+        <div class="row">
+            <h2 class="text-center text-white">Carrera</h2>
+            <div class="sobre-mi d-inline-block w-50">
+                <h2 class="text-center ">Sobre mi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quo eum nemo inventore nisi! Voluptate placeat eaque magnam repellat? Facere eius harum voluptate! Quia, optio perspiciatis consequatur modi autem iure.</p>
+            </div>
+            <div class="actitudes d-inline-block w-50">
+                <h2 class="text-center">Actitudes</h2>
+                <ul>
+                    <li>HTML5 <input type="range" class="form-large" value="80" id="disabledRange" disabled></li>
+                    <li>CSS3 <input type="range" class="form-large" value="70" id="disabledRange" disabled></li>
+                    <li>Boostrap <input type="range" class="form-large" value="80" id="disabledRange" disabled></li>
+                    <li>Git <input type="range" class="form-large" value="50" id="disabledRange" disabled></li>
+                    <li>GitHub <input type="range" class="form-large" value="70" id="disabledRange" disabled></li>
+                </ul>
+            </div>
+      
+        </div>
     </div>
-    <div id="carouselExampleCaptions" class="carousel slide carusells mx-auto" data-bs-ride="carousel">
+ 
+
+
+    <div class="repositorios container">
+        <h2 id="proyectos" class="h2-repositorios h2 mt-2">Mis Repositorios</h2>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" 
+                aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
         </div>
-        <div class="carousel-inner ">
-            <div class="carousel-item active ">
-                <img src="assets/img/desafio1.png" class="d-block   w-100" alt="desafio1png">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/desafio1.png" class="d-block  w-75 h-75 mx-auto d-block" alt="desafio1png">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="desafio2">Desafio 1</h5><br>
                     <p class="desafiop2">Curiculum vitae solo HTML</p><br>
-                    <button type="button" class="btn btn-success">Ver Proyecto</button>
+                    <a href="https://zapatasfelipe.github.io/Desafio1/" class="btn btn-success">Ver Proyecto</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/desafio2.png" class="d-block w-100" alt="desafio2png">
+                <img src="assets/img/desafio2.png" class="w-75 h-75 mx-auto d-block" alt="desafio2png">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="desafio">Desafio 2</h5><br>
                     <p class="desafiop">Tienda de pc con flexbox</p><br>
@@ -107,7 +104,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/desafio3.png" class="d-block w-100" alt="desafio3png">
+                <img src="assets/img/desafio3.png" class="w-75 h-75 mx-auto d-block" alt="desafio3png">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="desafio">Desafio 3</h5><br>
                     <p class="desafiop">Landing page Higuana</p><br>
@@ -115,7 +112,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/desafio4.png" class="d-block w-100" alt="...">
+                <img src="assets/img/desafio4.png" class="w-75 h-75 mx-auto d-block" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="desafio2">Desafio 4</h5><br>
                     <p class="desafiop2">Workshop de comidas bootstrap</p><br>
@@ -123,7 +120,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/desafio5.png" class="d-block w-100" alt="...">
+                <img src="assets/img/desafio5.png" class="w-75 h-75 mx-auto d-block" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="desafio2">Desafio 5</h5><br>
                     <p class="desafiop2">Forkeo a una repositorio github</p><br>
@@ -141,17 +138,46 @@
         </button>
     </div>
 
+    <section class="caracteristicas ">
+        <h2><strong>Servicios</strong></h2>
+        <div class="detalle">
+            <i class="fa-solid fa-laptop"></i>
+            <p>Arreglo de Computadores</p>
+        </div>
+        <div class="detalle">
+            <i class="fa-thin fa-file-lines"></i>
+            <p>Consultas tecnicas</p>
+        </div>
+        <div class="detalle">
+            <i class="fa-solid fa-paintbrush fa-2x"></i>
+            <p>Creacion paginas WEB</p>
+        </div>
+    </section>
 
 
-
-
-    <section class="container-fluid mt-4">
+    <section class="container-fluid ">
         <div class="row bg-dark">
-            <div class="bg-black text-white text-center pt-2" >
-                <h6>@2022 Felipe Zapata,Santiago de Chile</h6>
+            <div class="col-6 text-center mx-auto d-block">
+                <br>
+                <h5 class="text-white pb-2">Contactame para mas informacion</h5>
+                <form id="contacto" class="px-xs-0 px-md" action="">
+                    <input class="form-control " type="text" name="" id="" placeholder="Nombre">
+                    <br>
+                    <input class="form-control" type="text" name="" id="" placeholder="Correo electronico">
+                    <br>
+                    <button type="button" class="btn btn-light mb-3"><b>Enviar</b></button>
+                </form>
+            </div>
+            <div class="bg-black text-white text-center pt-2 ">
+
+                <h6>@2022 <br> Felipe Zapata,Santiago de Chile</h6>
             </div>
         </div>
     </section>
+
+
+
+
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

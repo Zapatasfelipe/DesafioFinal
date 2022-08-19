@@ -2,19 +2,21 @@
 
 html {
     font-size: 100%;
+    
 }
 
 /*16px*/
-
-.body{
-    background: #D3D3D3;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.75;
     color: #000000;
+    
+}
+
+.body{
+   background-color: #000000;
 }
 
 p {
@@ -89,6 +91,7 @@ span {
     text-align: center;
     font-size: 4em;
     font-weight: 800;
+    color: white;
 }
 
 .datos{
@@ -103,16 +106,23 @@ span {
     text-align: center;
     font-size: 50px;
     font-weight: 800;
+    color: white;
+
 
 }
+
+.mt-n1 {
+    margin-top: -2rem !important;
+}
+
 .sobre-mi{
-    padding: 20px;
-    width: 75%;
-    height: 100%;
-    background-color: rgb(162, 161, 161);
-    
+    background-color: rgb(116, 116, 121);
+    color: white;
 }
-
+.actitudes{
+    background-color: #1f1fbe;
+    color: white;
+}
 img{
     height: 400px;
     width: 100;
@@ -125,6 +135,22 @@ img{
 
 }
 
+.caracteristicas {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border: solid 1px #333;
+    padding: 0.5em;
+    color: white;
+    background-color: #1E1A13;
+}
+
+/* definir estilos de cada uno de los div que estan dentro de la seccion caracteristicas*/
+.detalle {
+    display: inline-block;
+    width: 15%;
+    padding: 1%;
+}
 
 
 
