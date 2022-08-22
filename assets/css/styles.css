@@ -118,10 +118,14 @@ span {
 .sobre-mi{
     background-color: rgb(116, 116, 121);
     color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .actitudes{
     background-color: #1f1fbe;
     color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 img{
     height: 400px;
